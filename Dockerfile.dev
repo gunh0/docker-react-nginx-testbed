@@ -4,7 +4,7 @@
 # why alpine? Alpine Linux is a security-oriented, lightweight 
 # Linux distribution. how small? how about 5Mb?
 # in comparison ubuntu 18.04 is about 1.8Gb
-FROM node:alpine
+FROM node:16.3.0-alpine
 # set working directory
 # this is the working folder in the container 
 # from which the app will be running from
